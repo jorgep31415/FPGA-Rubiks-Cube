@@ -1,0 +1,205 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed Jun 05 14:17:18 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "blue<0>" LOCATE = SITE "R7" LEVEL 1;
+COMP "blue<1>" LOCATE = SITE "T7" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "sw<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "sw<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "sw<5>" LOCATE = SITE "U8" LEVEL 1;
+COMP "sw<6>" LOCATE = SITE "V8" LEVEL 1;
+COMP "sw<7>" LOCATE = SITE "T5" LEVEL 1;
+COMP "btn_ccw" LOCATE = SITE "C4" LEVEL 1;
+COMP "hsync" LOCATE = SITE "N6" LEVEL 1;
+COMP "btn_reset" LOCATE = SITE "B8" LEVEL 1;
+COMP "vsync" LOCATE = SITE "P7" LEVEL 1;
+COMP "red<0>" LOCATE = SITE "U7" LEVEL 1;
+COMP "red<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "red<2>" LOCATE = SITE "N7" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "M13" LEVEL 1;
+COMP "btn_cw" LOCATE = SITE "D9" LEVEL 1;
+COMP "green<0>" LOCATE = SITE "P8" LEVEL 1;
+COMP "green<1>" LOCATE = SITE "T6" LEVEL 1;
+COMP "green<2>" LOCATE = SITE "V6" LEVEL 1;
+COMP "btn_hrot" LOCATE = SITE "A8" LEVEL 1;
+COMP "btn_vrot" LOCATE = SITE "C9" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "clk_divider/randclk_temp" BEL "d4/step_0" BEL
+        "d4/step_1" BEL "d4/step_2" BEL "d4/step_3" BEL "d4/step_4" BEL
+        "d4/step_5" BEL "d4/step_6" BEL "d4/step_7" BEL "d4/step_8" BEL
+        "d4/step_9" BEL "d4/step_10" BEL "d4/step_11" BEL "d4/step_12" BEL
+        "d4/step_13" BEL "d4/step_14" BEL "d4/step_15" BEL "d4/step_16" BEL
+        "d4/step_17" BEL "d4/step_18" BEL "d4/step_19" BEL "d4/step_20" BEL
+        "d4/step_21" BEL "d3/step_0" BEL "d3/step_1" BEL "d3/step_2" BEL
+        "d3/step_3" BEL "d3/step_4" BEL "d3/step_5" BEL "d3/step_6" BEL
+        "d3/step_7" BEL "d3/step_8" BEL "d3/step_9" BEL "d3/step_10" BEL
+        "d3/step_11" BEL "d3/step_12" BEL "d3/step_13" BEL "d3/step_14" BEL
+        "d3/step_15" BEL "d3/step_16" BEL "d3/step_17" BEL "d3/step_18" BEL
+        "d3/step_19" BEL "d3/step_20" BEL "d3/step_21" BEL "d1/step_0" BEL
+        "d1/step_1" BEL "d1/step_2" BEL "d1/step_3" BEL "d1/step_4" BEL
+        "d1/step_5" BEL "d1/step_6" BEL "d1/step_7" BEL "d1/step_8" BEL
+        "d1/step_9" BEL "d1/step_10" BEL "d1/step_11" BEL "d1/step_12" BEL
+        "d1/step_13" BEL "d1/step_14" BEL "d1/step_15" BEL "d1/step_16" BEL
+        "d1/step_17" BEL "d1/step_18" BEL "d1/step_19" BEL "d1/step_20" BEL
+        "d1/step_21" BEL "d2/step_0" BEL "d2/step_1" BEL "d2/step_2" BEL
+        "d2/step_3" BEL "d2/step_4" BEL "d2/step_5" BEL "d2/step_6" BEL
+        "d2/step_7" BEL "d2/step_8" BEL "d2/step_9" BEL "d2/step_10" BEL
+        "d2/step_11" BEL "d2/step_12" BEL "d2/step_13" BEL "d2/step_14" BEL
+        "d2/step_15" BEL "d2/step_16" BEL "d2/step_17" BEL "d2/step_18" BEL
+        "d2/step_19" BEL "d2/step_20" BEL "d2/step_21" BEL "clk_divider/q_0"
+        BEL "clk_divider/q_1" BEL "clk_divider/q_2" BEL "clk_divider/q_3" BEL
+        "clk_divider/q_4" BEL "clk_divider/q_5" BEL "clk_divider/q_6" BEL
+        "clk_divider/q_7" BEL "clk_divider/q_8" BEL "clk_divider/q_9" BEL
+        "clk_divider/q_10" BEL "clk_divider/q_11" BEL "clk_divider/q_12" BEL
+        "clk_divider/q_13" BEL "clk_divider/q_14" BEL "clk_divider/q_15" BEL
+        "clk_divider/q_16" BEL "clk_divider/q_17" BEL "clk_divider/q_18" BEL
+        "clk_divider/q_19" BEL "clk_divider/q_20" BEL "clk_divider/q_21" BEL
+        "clk_divider/q_22" BEL "clk_divider/q_23" BEL "clk_divider/q_24" BEL
+        "logic_and_vga/stickers_046_0" BEL "logic_and_vga/stickers_046_1" BEL
+        "logic_and_vga/stickers_046_2" BEL "logic_and_vga/stickers_045_0" BEL
+        "logic_and_vga/stickers_045_1" BEL "logic_and_vga/stickers_045_2" BEL
+        "logic_and_vga/stickers_6" BEL "logic_and_vga/stickers_7" BEL
+        "logic_and_vga/stickers_8" BEL "logic_and_vga/stickers_16" BEL
+        "logic_and_vga/stickers_15" BEL "logic_and_vga/stickers_17" BEL
+        "logic_and_vga/stickers_0" BEL "logic_and_vga/stickers_1" BEL
+        "logic_and_vga/stickers_2" BEL "logic_and_vga/stickers_4" BEL
+        "logic_and_vga/stickers_3" BEL "logic_and_vga/stickers_5" BEL
+        "logic_and_vga/legend_13" BEL "logic_and_vga/legend_2" BEL
+        "logic_and_vga/legend_1" BEL "logic_and_vga/legend_0" BEL
+        "logic_and_vga/stickers_047_0" BEL "logic_and_vga/stickers_047_1" BEL
+        "logic_and_vga/stickers_047_2" BEL "logic_and_vga/stickers_9" BEL
+        "logic_and_vga/stickers_10" BEL "logic_and_vga/stickers_11" BEL
+        "logic_and_vga/legend_6" BEL "logic_and_vga/legend_8" BEL
+        "logic_and_vga/legend_4" BEL "logic_and_vga/legend_15" BEL
+        "logic_and_vga/legend_17" BEL "logic_and_vga/legend_7" BEL
+        "logic_and_vga/move_count_temp_12" BEL
+        "logic_and_vga/move_count_temp_11" BEL
+        "logic_and_vga/move_count_temp_10" BEL
+        "logic_and_vga/move_count_temp_9" BEL
+        "logic_and_vga/move_count_temp_8" BEL
+        "logic_and_vga/move_count_temp_7" BEL
+        "logic_and_vga/move_count_temp_6" BEL
+        "logic_and_vga/move_count_temp_5" BEL
+        "logic_and_vga/move_count_temp_4" BEL
+        "logic_and_vga/move_count_temp_3" BEL
+        "logic_and_vga/move_count_temp_2" BEL
+        "logic_and_vga/move_count_temp_1" BEL
+        "logic_and_vga/move_count_temp_0" BEL "logic_and_vga/legend_9" BEL
+        "logic_and_vga/legend_11" BEL "logic_and_vga/legend_14" BEL
+        "logic_and_vga/legend_12" BEL "logic_and_vga/stickers_29" BEL
+        "logic_and_vga/stickers_28" BEL "logic_and_vga/stickers_27" BEL
+        "logic_and_vga/stickers_32" BEL "logic_and_vga/stickers_31" BEL
+        "logic_and_vga/stickers_30" BEL "logic_and_vga/stickers_35" BEL
+        "logic_and_vga/stickers_34" BEL "logic_and_vga/stickers_33" BEL
+        "logic_and_vga/stickers_38" BEL "logic_and_vga/stickers_37" BEL
+        "logic_and_vga/stickers_36" BEL "logic_and_vga/stickers_44" BEL
+        "logic_and_vga/stickers_43" BEL "logic_and_vga/stickers_42" BEL
+        "logic_and_vga/stickers_47" BEL "logic_and_vga/stickers_46" BEL
+        "logic_and_vga/stickers_45" BEL "logic_and_vga/stickers_41" BEL
+        "logic_and_vga/stickers_39" BEL "logic_and_vga/stickers_50" BEL
+        "logic_and_vga/stickers_49" BEL "logic_and_vga/stickers_48" BEL
+        "logic_and_vga/stickers_53" BEL "logic_and_vga/stickers_52" BEL
+        "logic_and_vga/stickers_51" BEL "logic_and_vga/stickers_59" BEL
+        "logic_and_vga/stickers_58" BEL "logic_and_vga/stickers_57" BEL
+        "logic_and_vga/stickers_62" BEL "logic_and_vga/stickers_61" BEL
+        "logic_and_vga/stickers_60" BEL "logic_and_vga/stickers_56" BEL
+        "logic_and_vga/stickers_55" BEL "logic_and_vga/stickers_54" BEL
+        "logic_and_vga/stickers_65" BEL "logic_and_vga/stickers_64" BEL
+        "logic_and_vga/stickers_63" BEL "logic_and_vga/stickers_67" BEL
+        "logic_and_vga/stickers_74" BEL "logic_and_vga/stickers_73" BEL
+        "logic_and_vga/stickers_72" BEL "logic_and_vga/stickers_77" BEL
+        "logic_and_vga/stickers_76" BEL "logic_and_vga/stickers_75" BEL
+        "logic_and_vga/stickers_71" BEL "logic_and_vga/stickers_70" BEL
+        "logic_and_vga/stickers_69" BEL "logic_and_vga/stickers_80" BEL
+        "logic_and_vga/stickers_79" BEL "logic_and_vga/stickers_78" BEL
+        "logic_and_vga/stickers_83" BEL "logic_and_vga/stickers_82" BEL
+        "logic_and_vga/stickers_81" BEL "logic_and_vga/stickers_89" BEL
+        "logic_and_vga/stickers_88" BEL "logic_and_vga/stickers_87" BEL
+        "logic_and_vga/stickers_92" BEL "logic_and_vga/stickers_91" BEL
+        "logic_and_vga/stickers_90" BEL "logic_and_vga/stickers_86" BEL
+        "logic_and_vga/stickers_85" BEL "logic_and_vga/stickers_84" BEL
+        "logic_and_vga/stickers_98" BEL "logic_and_vga/stickers_97" BEL
+        "logic_and_vga/stickers_96" BEL "logic_and_vga/stickers_101" BEL
+        "logic_and_vga/stickers_100" BEL "logic_and_vga/stickers_99" BEL
+        "logic_and_vga/stickers_94" BEL "logic_and_vga/stickers_93" BEL
+        "logic_and_vga/stickers_107" BEL "logic_and_vga/stickers_106" BEL
+        "logic_and_vga/stickers_105" BEL "logic_and_vga/stickers_110" BEL
+        "logic_and_vga/stickers_109" BEL "logic_and_vga/stickers_108" BEL
+        "logic_and_vga/stickers_104" BEL "logic_and_vga/stickers_103" BEL
+        "logic_and_vga/stickers_102" BEL "logic_and_vga/stickers_113" BEL
+        "logic_and_vga/stickers_112" BEL "logic_and_vga/stickers_111" BEL
+        "logic_and_vga/stickers_116" BEL "logic_and_vga/stickers_115" BEL
+        "logic_and_vga/stickers_114" BEL "logic_and_vga/stickers_122" BEL
+        "logic_and_vga/stickers_125" BEL "logic_and_vga/stickers_124" BEL
+        "logic_and_vga/stickers_123" BEL "logic_and_vga/stickers_119" BEL
+        "logic_and_vga/stickers_118" BEL "logic_and_vga/stickers_117" BEL
+        "logic_and_vga/stickers_128" BEL "logic_and_vga/stickers_127" BEL
+        "logic_and_vga/stickers_126" BEL "logic_and_vga/stickers_131" BEL
+        "logic_and_vga/stickers_130" BEL "logic_and_vga/stickers_129" BEL
+        "logic_and_vga/stickers_137" BEL "logic_and_vga/stickers_136" BEL
+        "logic_and_vga/stickers_135" BEL "logic_and_vga/stickers_140" BEL
+        "logic_and_vga/stickers_139" BEL "logic_and_vga/stickers_138" BEL
+        "logic_and_vga/stickers_134" BEL "logic_and_vga/stickers_133" BEL
+        "logic_and_vga/stickers_132" BEL "logic_and_vga/stickers_143" BEL
+        "logic_and_vga/stickers_142" BEL "logic_and_vga/stickers_141" BEL
+        "logic_and_vga/stickers_146" BEL "logic_and_vga/stickers_145" BEL
+        "logic_and_vga/stickers_144" BEL "logic_and_vga/stickers_152" BEL
+        "logic_and_vga/stickers_151" BEL "logic_and_vga/stickers_150" BEL
+        "logic_and_vga/stickers_155" BEL "logic_and_vga/stickers_154" BEL
+        "logic_and_vga/stickers_153" BEL "logic_and_vga/stickers_149" BEL
+        "logic_and_vga/stickers_148" BEL "logic_and_vga/stickers_147" BEL
+        "logic_and_vga/stickers_161" BEL "logic_and_vga/stickers_160" BEL
+        "logic_and_vga/stickers_159" BEL "logic_and_vga/stickers_158" BEL
+        "logic_and_vga/stickers_157" BEL "logic_and_vga/stickers_156" BEL
+        "logic_and_vga/legend_10" BEL "logic_and_vga/legend_3" BEL
+        "logic_and_vga/vrot_pressed" BEL "logic_and_vga/ccw_pressed" BEL
+        "logic_and_vga/cw_pressed" BEL "logic_and_vga/hrot_pressed" BEL
+        "lfsr/out_3" BEL "lfsr/out_2" BEL "lfsr/out_1" BEL "lfsr/out_0" BEL
+        "lfsr/out_assign_3" BEL "lfsr/out_assign_1" BEL "lfsr/out_assign_0"
+        BEL "d4/is_posedge_temp" BEL "d3/is_posedge_temp" BEL
+        "d2/is_posedge_temp" BEL "d1/is_posedge_temp" BEL
+        "logic_and_vga/blue_temp_0" BEL "logic_and_vga/green_temp_2" BEL
+        "logic_and_vga/green_temp_1" BEL "logic_and_vga/green_temp_0" BEL
+        "logic_and_vga/red_temp_1" BEL "logic_and_vga/red_temp_0" BEL
+        "logic_and_vga/state_temp_FSM_FFd1" BEL
+        "logic_and_vga/state_temp_FSM_FFd2" BEL "d3/is_posedge_temp_1" BEL
+        "d3/is_posedge_temp_2" BEL "d3/is_posedge_temp_3" BEL
+        "d3/is_posedge_temp_4" BEL "d3/is_posedge_temp_5" BEL
+        "logic_and_vga/hrot_pressed_1" BEL "logic_and_vga/hrot_pressed_2" BEL
+        "logic_and_vga/hrot_pressed_3" BEL "logic_and_vga/hrot_pressed_4" BEL
+        "logic_and_vga/hrot_pressed_5" BEL "logic_and_vga/hrot_pressed_6" BEL
+        "logic_and_vga/hrot_pressed_7" BEL "d4/is_posedge_temp_1" BEL
+        "d4/is_posedge_temp_2" BEL "d4/is_posedge_temp_3" BEL
+        "d4/is_posedge_temp_4" BEL "d4/is_posedge_temp_5" BEL
+        "d3/is_posedge_temp_6" BEL "d3/is_posedge_temp_7" BEL
+        "d4/is_posedge_temp_6" BEL "logic_and_vga/hrot_pressed_8" BEL
+        "d3/is_posedge_temp_8" BEL "d3/is_posedge_temp_9" BEL
+        "d3/is_posedge_temp_10" BEL "d3/is_posedge_temp_11" BEL
+        "logic_and_vga/vrot_pressed_1" BEL "logic_and_vga/vrot_pressed_2" BEL
+        "logic_and_vga/vrot_pressed_3" BEL "logic_and_vga/vrot_pressed_4" BEL
+        "d3/is_posedge_temp_12" BEL "logic_and_vga/vrot_pressed_5" BEL
+        "logic_and_vga/vrot_pressed_6" BEL "d3/is_posedge_temp_13" BEL
+        "d3/is_posedge_temp_14" BEL "logic_and_vga/vrot_pressed_7" BEL
+        "lfsr/out_3_1" BEL "lfsr/out_1_1" BEL "lfsr/out_0_1" BEL
+        "logic_and_vga/hrot_pressed_9" BEL "logic_and_vga/hrot_pressed_10" BEL
+        "logic_and_vga/vrot_pressed_8" BEL "logic_and_vga/vrot_pressed_9" BEL
+        "logic_and_vga/vrot_pressed_10" BEL "clk_divider/randclk_temp_1" BEL
+        "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

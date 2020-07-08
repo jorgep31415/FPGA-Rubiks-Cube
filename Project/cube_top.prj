@@ -1,0 +1,6 @@
+verilog work "seg_display.v"
+verilog work "lsfr.v"
+verilog work "logic_and_vga.v"
+verilog work "debouncing.v"
+verilog work "clk_divider.v"
+verilog work "nexys3.v"

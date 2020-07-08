@@ -1,0 +1,313 @@
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xa7a100t-csg324-2I cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/project4jva-20190522T210421Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/project4jva/cube_top.xst" -ofn "C:/Users/152/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/project4jva/cube_top.xst" -ofn "C:/Users/152/Desktop/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/project4jva/cube_top.xst" -ofn "C:/Users/152/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/project4jva/cube_top.xst" -ofn "C:/Users/152/Desktop/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/project4jva/cube_top.xst" -ofn "C:/Users/152/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/project4jva/cube_top.xst" -ofn "C:/Users/152/Desktop/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Desktop/project4jva/cube_top.xst" -ofn "C:/Users/152/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva-20190524T175814Z-001/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Documents/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/project4jva/cube_top.xst" -ofn "/home/ise/Desktop/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva64/project4jva64/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva64/project4jva64/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva64/project4jva64/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva64/project4jva64/project4jva/cube_top.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Downloads/project4jva64/project4jva64/project4jva/cube_top.xst" -ofn "C:/Users/152/Downloads/project4jva64/project4jva64/project4jva/cube_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-3 cube_top.ngc cube_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cube_top_map.ncd cube_top.ngd cube_top.pcf 
+par -w -intstyle ise -ol high -mt off cube_top_map.ncd cube_top.ncd cube_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cube_top.twx cube_top.ncd -o cube_top.twr cube_top.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f cube_top.ut cube_top.ncd 
